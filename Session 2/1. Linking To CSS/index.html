@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Linking to CSS </title>
+		<!-- You can use style tags, and just write your CSS within them -->
+		<style>
+			/* Write your CSS here (notice the comments are different here, as you are no longer writing HTML) */
+			body {
+				background-color: grey;
+				font-size: 18px;
+				font-family: Arial;
+			}
+		</style>
+		<!-- You can also (it's much preferred this way) put your CSS in a separate .css file (usually main.css) and link to the file in your head -->
+		<link rel="stylesheet" href="main.css" type="text/css">
+		<!-- the href is "main.css" because the file is in the SAME FOLDER as the file index.html (this is a DOCUMENT RELATIVE LINK)-->
+		<!-- Note: style and link refer to CSS code, anything else you use script (but more on this later)-->
+	</head>
+	<body>
+		<!-- Or finally you can add CSS to your HTML tags (this is called inline CSS), but this can get messy-->
+			<h1 color="red" font-size="54px">Heading 1 using "inline CSS"</h1>
+			<p> Paragraph using "style"</p>
+			<h2> Heading 2 using "linked CSS"</h2>
+			<img src="http://static.tumblr.com/82ab64eb5f0e5089ee41dc64c078d8d3/mbuzztw/IQBmpmg60/tumblr_static_code_first_logo_new.png">
+			<!-- this is an ABSOLUTE LINK-->
+
+	</body>
+</html>
